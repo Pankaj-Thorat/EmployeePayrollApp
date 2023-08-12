@@ -1,0 +1,143 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    text-transform: bold;
+    margin: 0;
+    
+}
+.total{
+    background: #f2f2f2;
+}
+
+header {
+    background-color: #fff;
+    
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px 60px 5px 160px;
+}
+
+.logo {
+    margin-left: 10px;
+}
+
+.emp-text {
+    color: #82A70C;
+}
+.payroll-text{
+ color: #42515F;
+}
+
+.emp-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    margin-top: 10px;
+    background: #f2f2f2;
+    padding: 30px 160px 30px 160px;
+}
+
+.emp-heading {
+    color: #42515F;
+    display: inline-block;
+    margin-top: 0;
+    
+}
+
+.search-bar {
+    float: right; /* Float the search bar to the right */
+    position: relative; /* Set the position to relative */
+}
+
+.search-bar input[type="text"] {
+    margin-left: 750px; /* Set margin-left to auto to push it to the right */
+    width: 30px;
+    box-sizing: border-box;
+    border: 0px solid #ccc;
+    border-radius: 28px;
+    font-size: 16px;
+    background-color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E");
+    background-position: 13px 13px;
+    background-position-x: center;
+    background-repeat: no-repeat;
+    padding: 13px 13px 13px 40px;
+    box-shadow: 0px 1px 3px #00000029;
+    transition: width 0.6s ease-in-out;
+}
+
+.search-bar input[type="text"]:focus {
+    width: 20%;
+}
+
+
+.plus-button {
+    color: white;
+    font-size: larger;
+    font-weight: 100;
+    background-color: #82A70C;
+    border: none;
+    border-radius: 5px;
+    padding: 13px 25px;
+    cursor: pointer;
+    margin-right: 0px;
+}
+
+.plus-button i {
+    margin-right: 5px;
+}
+
+.head-tags{
+    
+    display: flex;
+    justify-content: space-between;
+    background:#42515F;
+    color: #fff;
+    padding: 20px;
+    margin: 0px 160px;
+    border-radius: 2px;
+    padding-top: 22px;
+    padding-bottom: 21px;
+    text-align: left;
+}
+.name1{
+    margin-left: 120px;
+    vertical-align: middle;
+}
+.gender{
+    margin-left: 10px;
+
+}
+.user{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    background: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #E3E3E3;
+    margin: 0px 160px;
+    border-radius: 2px;
+    padding-top: 22px;
+    padding-bottom: 10px;
+}
+mark{
+    padding: 0px 5px;
+    border-radius: 10px;
+
+}
+
+
+/* media query */
+@media screen and (max-width: 1480px) {
+    body {
+      background-color: lightgreen;
+    }
+    .search-bar input[type="text"] {
+        margin-left: 550px;
+    }
+    
+  }
+  
